@@ -165,13 +165,6 @@
 
 ;; (ndim #(1 2 3 4))                       ; => 1
 
-(defun shape (arry)
-  (array-dimensions arry))              ; => SHAPE
-
-;; (setq array3 (make-array '(2 2) :initial-contents '((1 2) (3 4)))) ; => #2A((1 2) (3 4))
-;; (shape #2A((1 2) (3 4)))                                          ; =>(2 2) 
-
-
 
 ;; (setf A (make-array '(2 3) :element-type 'fixnum :initial-contents '((1 2 3) (4 5 6)))) ; =>#2A((1 2 3) (4 5 6)) 
 ;; (setf B (make-array '(3 2) :element-type 'fixnum :initial-contents '((1 2) (3 4) (5 6)))) ; => #2A((1 2) (3 4) (5 6))
